@@ -1,0 +1,15 @@
+.ticketSumm{
+    border: 7px;
+    border-style: solid;
+    border-color: gainsboro;
+
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.costSumm{
+      margin: auto;
+  width: 50%;
+  padding: 10px;
+}
