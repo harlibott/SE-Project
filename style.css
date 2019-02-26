@@ -33,6 +33,12 @@ body{
     color: white;
   }
 
+  /* Add a color to the active/current link */
+  .sidenav a.admin_active {
+    background-color: rgb(37, 37, 128);
+    color: white;
+  }
+
   .header{
       color:  rgb(37, 37, 128);
       font-size: 50px;
