@@ -1,7 +1,7 @@
 /* The sidenav */
 .sidenav {
   height: 100%;
-  width: 250px;
+  width: 270px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -13,7 +13,7 @@
 
 /* Page content */
 .main {
-  margin-left: 180px; /* Same as the width of the sidenav */
+  margin-left: 200px; /* Same as the width of the sidenav */
 }
 
 /* The navigation menu links */
@@ -41,7 +41,7 @@
 .column {
   float: right;
   width: 25%;
-  padding: 0 60px;
+  padding: 60px;
 }
 
 /* Float 2nd columns side by side */
@@ -56,3 +56,37 @@ img {
   height: 200px;
   width: 45%;
 }
+
+/* Buttons resize for Admin main */
+button {
+  font-size: 17px;  
+}
+
+/* Adjust position and size of search bar */
+.search_nav button, input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 17px;
+}
+
+/* Adjust position and size of Add New ... buttons */
+.add_nav button {
+  float: left;
+  padding: 6px;
+  font-size: 17px;
+}
+
+/* Adjust table for user on user_manage */
+table {
+  width: 100%;
+  text-align: center;
+}
+
+/* Adjust color of the table header */
+th {
+  background-color: rgb(37, 37, 128);
+  color: white;
+}
+
+/* Change each even row to different shade color */
+tr:nth-child(even){background-color: #f2f2f2;}
