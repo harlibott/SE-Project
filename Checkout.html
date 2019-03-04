@@ -6,6 +6,19 @@
     <link rel = "stylesheet" type="text/css" href="Checkout.css">
 
 </head>
+<style>
+    #submit{
+    background-color: rgb(37, 37, 128);
+      border: none;
+      color: white;
+      padding: 16px 20px;
+      text-decoration: none;
+      margin: 2px 2px;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    </style>
+
 <div class="header">
     <p>Cinema E Booking System</p>
 </div>
@@ -31,12 +44,12 @@
             <option value="N/A">Select Card</option>
             <option value="Card1">Visa 123456789</option>
         </select>
-    </br>
-        <input type = "submit">
+    </br><br>
+       <center><Button id="submit">Submit</Button></center>
     </form>
 
     <form action="/home.html">
-        <input type="submit" value="Cancel">
+       <center><Button>Cancel</Button></center>
     </form>
 </body>
 </html>
