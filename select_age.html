@@ -4,6 +4,18 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+<style>
+#submit{
+background-color: rgb(37, 37, 128);
+  border: none;
+  color: white;
+  padding: 16px 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+  font-size: 15px;
+  cursor: pointer;
+}
+</style>
     <div class="header">
     <p>Cinema E Booking System</p>
 </div>
@@ -11,30 +23,20 @@
 <body>
 
 <form action="" style="text-align: center"> 
-    Age: 
-    <select name="age">
-    <option value="3-13"> Child: 3-13</option>
-        <option value="14-64"> Adult: 14-64</option>
-        <option value="65+"> Senior: 65+ </option>
-    </select>
+   
     <br>
-    Age: 
-    <select name="age">
-    <option value="3-13"> Child: 3-13</option>
-        <option value="14-64"> Adult: 14-64</option>
-        <option value="65+"> Senior: 65+ </option>
-    </select>
+    <input type="checkbox" name="age1" value="age1"> Child: 3-13
     <br>
-    Age: 
-    <select name="age">
-    <option value="3-13"> Child: 3-13</option>
-        <option value="14-64"> Adult: 14-64</option>
-        <option value="65+"> Senior: 65+ </option>
-    </select>
+    <br>
+    <input type="checkbox" name="age2" value="age2"> Adult: 14-64
+    <br>
+    <br>
+    <input type="checkbox" name="age3" value="age3"> Senior: 65+
+    <br>
     <br>
     <br>
     
-    <input type="submit" value="Submit">
+   <Button id="submit">Submit</Button>
 </form>
 
 
