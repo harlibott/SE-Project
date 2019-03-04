@@ -6,7 +6,18 @@
 <link rel="stylesheet" type="text/css" href="order_summary.css">
 </head>
 <body>
-
+    <style>
+        #submit{
+        background-color: rgb(37, 37, 128);
+          border: none;
+          color: white;
+          padding: 16px 20px;
+          text-decoration: none;
+          margin: 2px 2px;
+          font-size: 15px;
+          cursor: pointer;
+        }
+        </style>
 <div class="header">
     <p>Order Summary</p>
 </div>
@@ -42,16 +53,16 @@
     <br>
     
     <form action="" style="text-align: center"> 
-    <input type="submit" value="Checkout"> 
+        <Button id="submit">Checkout</Button>
     
     </form>
     <br>
     <center>
         <a href="buy_tickets.html"> Edit purchase</a> <br>
         <a href="home_page.html"> Go Back </a></center>
-
+<br>
 <form action="/home.html">
-    <input type="submit" value="Cancel Tickets">
+    <center><input type="submit" value="Cancel Tickets"></center>
 </form>
 
 </body>
